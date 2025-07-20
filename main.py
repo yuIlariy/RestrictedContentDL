@@ -67,7 +67,7 @@ async def start(_, message: Message):
         "I can grab photos, videos, audio, and documents from any Telegram post.\n"
         "Just send me a link (paste it directly or use `/dl <link>`),\n"
         "or reply to a message with `/dl`.\n\n"
-        "ℹ️ Use `/help` to view all commands and examples.\n"
+        "ℹ️ Use /help to view all commands and examples.\n"
         "🔒 Make sure the user client is part of the chat.\n\n"
         "Ready? Send me a Telegram post link!\n\n"
         "🚀 **Powered by** [**NAm**](https://t.me/xspes)"
