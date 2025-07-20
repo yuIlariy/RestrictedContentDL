@@ -64,7 +64,7 @@ def track_task(coro):
 async def start(_, message: Message):
     welcome_text = (
         "👋 **Welcome to Media Downloader Bot!**\n\n"
-        "I can grab photos, videos, audio, and documents from any Telegram post.\n"
+        "I can grab photos, videos, audio, and documents from any restricted Public groups or channels.\n"
         "Just send me a link (paste it directly or use `/dl <link>`),\n"
         "or reply to a message with `/dl`.\n\n"
         "ℹ️ Use /help to view all commands and examples.\n"
