@@ -70,11 +70,11 @@ async def start(_, message: Message):
         "ℹ️ Use `/help` to view all commands and examples.\n"
         "🔒 Make sure the user client is part of the chat.\n\n"
         "Ready? Send me a Telegram post link!\n\n"
-        "[🚀**Powered by NAm**](https://t.me/xspes)"
+        "🚀 **Powered by** [**NAm**](https://t.me/xspes)"
     )
 
     markup = InlineKeyboardMarkup(
-        [[InlineKeyboardButton("Update Channel", url="https://t.me/itsSmartDev")]]
+        [[InlineKeyboardButton("Updates Channel", url="https://t.me/itsSmartDev")]]
     )
     await message.reply(welcome_text, reply_markup=markup, disable_web_page_preview=True)
 
